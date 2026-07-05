@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    int n = 32;
+    int n = 16;
 
     // A power of 2 has exactly one set bit. n & (n - 1) unsets it.
     bool isPowerOfTwo = (n > 0) && ((n & (n - 1)) == 0);
