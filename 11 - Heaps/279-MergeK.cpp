@@ -60,7 +60,7 @@ int main()
         if (temp->next != nullptr)
             cout << " -> ";
         temp = temp->next;
-    }
+    }t
     cout << endl;
 
     while (resulthead != nullptr)
