@@ -40,13 +40,13 @@ int main()
     int n = 5;
 
     // Step 1: Build max heap
-    for (int i = n / 2; i > 0; i--) 
+    for (int i = n / 2; i > 0; i--)
     {
         heapify(arr, n, i);
     }
 
     cout << "Max Heap: ";
-    for (int i = 1; i <= n; i++) 
+    for (int i = 1; i <= n; i++)
     {
         cout << arr[i] << " ";
     }
@@ -56,7 +56,7 @@ int main()
     heapsort(arr, n);
 
     cout << "Sorted Array: ";
-    for (int i = 1; i <= n; i++) 
+    for (int i = 1; i <= n; i++)
     {
         cout << arr[i] << " ";
     }
