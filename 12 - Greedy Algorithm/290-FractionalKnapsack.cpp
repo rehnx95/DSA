@@ -16,7 +16,6 @@ int main()
         p.push_back({(1.0 * v[i]) / w[i], i});
     }
     
-    // Sorts in descending order automatically
     sort(p.begin(), p.end(), greater<pair<double, int>>());
     
     for (int i = 0; i < p.size(); i++)
