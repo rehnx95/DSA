@@ -22,7 +22,7 @@ vector<vector<int>> insertBruteForce(vector<vector<int>>& intervals, vector<int>
         ans.push_back(intervals[i]);
     }
     
-    // Step B: Merge overlapping elements
+    // Step B: Merge overlapping element
     vector<vector<int>> finalans;
     finalans.push_back(ans[0]);
     

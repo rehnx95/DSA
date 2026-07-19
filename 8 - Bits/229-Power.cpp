@@ -10,7 +10,7 @@ int fastpow(double x, int n)
     {
         return fastpow(x * x, n / 2); // half the power double the base
     }
-    return x * fastpow(x * x, n / 2); // if it power is odd take one base and power will be even
+    return x * fastpow(x * x, n / 2); // if power is odd take one base and power will be even
 }
 int power(double x, int n)
 {

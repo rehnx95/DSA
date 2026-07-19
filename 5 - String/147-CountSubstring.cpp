@@ -17,7 +17,7 @@ int main() {
         }
     }
 
-    // Print Results
+    // Print Result
     cout << "String: " << s << endl;
     cout << "Count using Formula: " << countWithFormula << endl;
     cout << "Count using Loops:   " << countWithLoops << endl;

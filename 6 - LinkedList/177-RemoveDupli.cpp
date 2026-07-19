@@ -75,7 +75,7 @@ int main()
 {
     vector<int> arr = {2, 3, 3, 5, 5, 5, 5, 6, 6};
 
-    node *head = convert(arr); // gives the head of dll
+    node *head = convert(arr); // gives head of dll
     head = removedupl(head);
     traversal(head);
 }

@@ -43,4 +43,5 @@ int main()
         mpp[presum]++;
     }
     cout << count;
+    return 0;
 }

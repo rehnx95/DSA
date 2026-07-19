@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-int maxScore(vector<int> &cardPoints, int k)
+int maxscore(vector<int> &cardPoints, int k)
 {
     int n = cardPoints.size();
     int lsum = 0;
@@ -24,5 +24,5 @@ int main()
 {
     vector<int> arr = {1, 2, 3, 4, 5, 6};
     int k = 3;
-    int score = maxScore(arr, k);
+    int score = maxscore(arr, k);
 }

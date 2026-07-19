@@ -45,7 +45,7 @@ int main()
     // permutation(ds, arr, hash, ans);
     permutation2(0, arr, ans);
 
-    // Print results
+    // Print result
     for (auto comb : ans)
     {
         for (auto num : comb)

@@ -24,7 +24,7 @@ int main()
     string ans = "";
     for (int i = 0; i < st.size(); i++)
     {
-        // Skip leading zeros
+        // Skip leading zero
         if (ans.empty() && st[i] == 0)
         {
             continue;

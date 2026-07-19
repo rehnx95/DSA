@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int recu(int idx, int n, vector<int> &arr)
+int recur(int idx, int n, vector<int> &arr)
 {
     if (idx >= n - 1)
         return 0;
@@ -11,14 +11,14 @@ int recu(int idx, int n, vector<int> &arr)
     int mini = 1e9;
     for (int i = 1; i <= arr[idx]; i++)
     {
-        mini = min(mini, 1 + recu(idx + i, n, arr));
+        mini = min(mini, 1 + recur(idx + i, n, arr));
     }
     return mini;
 }
 
 int brute(vector<int> &arr)
 {
-    return recu(0, arr.size(), arr);
+    return recur(0, arr.size(), arr);
 }
 
 int optimal(vector<int> &arr)

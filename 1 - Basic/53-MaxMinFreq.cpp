@@ -30,6 +30,6 @@ int main()
             minn = it.second;
         }
     }
-    cout<<maxx<<endl;
-    cout<<minn<<endl;
+    cout << maxx << endl;
+    cout << minn << endl;
 }
