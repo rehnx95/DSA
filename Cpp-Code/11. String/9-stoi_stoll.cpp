@@ -33,4 +33,6 @@ int main()
         }
     }
     cout << mx << " " << mxS;
+
+    return 0;
 }
