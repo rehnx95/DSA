@@ -50,6 +50,7 @@ int main()
     {
         if (count == 0)
         {
+            count = 1;
             candidate = arr[i];
         }
         if (arr[i] == candidate)
