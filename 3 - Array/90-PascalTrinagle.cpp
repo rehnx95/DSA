@@ -35,26 +35,35 @@ vector<vector<int>> generateTriangle(int numRows) {
     }
     return ans;
 }
+int ncr(int r, int c){
+    int res=1;
+    for(int i=0;i<c;i++){
+        res=res*(r-i);
+        res=res/(i+1);
+    }
+    return res;
+}
 
 int main() {
-    int rowIdx = 5, colIdx = 3;
-    cout << getElement(rowIdx, colIdx) << "\n";
+    cout<<ncr(4,2);
+    // int rowIdx = 5, colIdx = 3;
+    // cout << getElement(rowIdx, colIdx) << "\n";
 
-    int targetRow = 5;
-    vector<int> row = getRow(targetRow);
-    for (int x : row) {
-        cout << x << " ";
-    }
-    cout << "\n";
+    // int targetRow = 5;
+    // vector<int> row = getRow(targetRow);
+    // for (int x : row) {
+    //     cout << x << " ";
+    // }
+    // cout << "\n";
 
-    int totalRows = 5;
-    vector<vector<int>> triangle = generateTriangle(totalRows);
-    for (int i = 0; i < triangle.size(); i++) {
-        for (int j = 0; j < triangle[i].size(); j++) {
-            cout << triangle[i][j] << " ";
-        }
-        cout << "\n";
-    }
+    // int totalRows = 5;
+    // vector<vector<int>> triangle = generateTriangle(totalRows);
+    // for (int i = 0; i < triangle.size(); i++) {
+    //     for (int j = 0; j < triangle[i].size(); j++) {
+    //         cout << triangle[i][j] << " ";
+    //     }
+    //     cout << "\n";
+    // }
 
     return 0;
 }
