@@ -1,6 +1,6 @@
 # DSA
 
-My C++ solutions to a custom-modified [Striver A2Z](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) DSA sheet, organized by topic.
+My C++ solutions to a custom-modified [Striver A2Z](https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet?page=sheet) DSA sheet, organized by topic.
 
 ## Track my progress
 
